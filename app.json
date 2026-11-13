@@ -28,6 +28,7 @@
     },
     "plugins": [
       "expo-router",
+      "./plugins/withGradleMemory",
       [
         "expo-splash-screen",
         {
@@ -36,6 +37,16 @@
           "backgroundColor": "#FFFFFF"
         }
       ]
-    ]
+    ],
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "0d3aa223-93ae-4752-b29b-ca6fe0fd05a9"
+      }
+    }
   }
 }
