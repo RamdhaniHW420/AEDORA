@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "AEDORA",
+    "slug": "aedora",
+    "scheme": "aedora",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#DCEFFA",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "id.nextylabs.aedora"
+    },
+    "android": {
+      "package": "id.nextylabs.aedora",
+      "adaptiveIcon": {
+        "backgroundColor": "#DCEFFA",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 240,
+          "backgroundColor": "#FFFFFF"
+        }
+      ]
+    ]
+  }
+}
